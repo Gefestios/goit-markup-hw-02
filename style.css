@@ -3,11 +3,57 @@
   padding: 0;
 }
 
-.logo {
-  color: #ffffff;
+body {
+  font-family: "Dancing Script", cursive;
+  font-family: "Pacifico", cursive;
+  font-family: "Roboto", sans-serif;
 }
+
+/* .logo {
+  color: #ffffff;
+} */
 span {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: #2196f3;
+}
+
+b {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: white;
+}
+
+.hero h1 {
+  letter-spacing: 0.06em;
+  font-family: "Dancing Script", cursive;
+  /* font-family: "Pacifico", cursive; */
+  text-transform: uppercase;
+}
+
+.hero {
+  background-color: #2f303a;
+  color: white;
+  text-align: center;
+  font-family: Roboto;
+}
+
+.hero a:hover {
+  color: #2196f3;
+}
+.hero a {
+  color: white;
 }
 
 ul {
@@ -18,7 +64,32 @@ a {
   color: black;
 }
 
+.main-nav a {
+  text-transform: capitalize;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
 .main-nav a:hover {
+  color: #2196f3;
+}
+
+.main-tel a {
+  text-transform: capitalize;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.main-tel a:hover {
   color: #2196f3;
 }
 
@@ -32,9 +103,12 @@ a {
   color: #757575;
 }
 
-.hero {
-  background-color: #2f303a;
-  color: white;
+.do h2 {
+  text-align: center;
+}
+
+.team h2 {
+  text-align: center;
 }
 
 footer {
@@ -44,4 +118,8 @@ footer {
 
 .address {
   color: white;
+}
+
+.employee-info {
+  text-align: center;
 }
