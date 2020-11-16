@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  color: #ffffff;
+}
+span {
+  color: #2196f3;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-nav a:hover {
+  color: #2196f3;
+}
+
+/* .softskill { 
+  color: #757575;
+}*/
+
+.softskill p,
+.team p,
+.menu p {
+  color: #757575;
+}
+
+.hero {
+  background-color: #2f303a;
+  color: white;
+}
+
+footer {
+  background-color: #2f303a;
+  color: white;
+}
+
+.address {
+  color: white;
+}
