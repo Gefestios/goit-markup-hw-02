@@ -2,22 +2,31 @@
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
 
 body {
-  font-family: "Dancing Script", cursive;
-  font-family: "Pacifico", cursive;
+  /* font-family: "Dancing Script", cursive;
+  font-family: "Pacifico", cursive; */
   font-family: "Roboto", sans-serif;
 }
 
-/* .logo {
-  color: #ffffff;
-} */
+.logo {
+  font-family: "Raleway", sans-serif;
+}
+
 span {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -27,26 +36,26 @@ b {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19em;
   letter-spacing: 0.03em;
+  color: black;
 }
 
 .logo {
   color: white;
 }
 
-.hero h1 {
-  letter-spacing: 0.06em;
-  font-family: "Dancing Script", cursive;
-  /* font-family: "Pacifico", cursive; */
-  text-transform: uppercase;
-}
-
 .hero {
   background-color: #2f303a;
   color: white;
   text-align: center;
-  font-family: Roboto;
+}
+
+.hero h1 {
+  text-transform: uppercase;
+  font-size: 44px;
+  line-height: 1.36em;
+  letter-spacing: 0.06em;
 }
 
 .hero a:hover {
@@ -54,23 +63,34 @@ b {
 }
 .hero a {
   color: white;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.06em;
 }
 
-ul {
-  list-style: none;
+.softskill h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-a {
-  text-decoration: none;
-  color: black;
+.softskill p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .main-nav a {
   text-transform: capitalize;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14em;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -85,30 +105,38 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14em;
   letter-spacing: 0.02em;
   color: #757575;
 }
 .main-tel a:hover {
   color: #2196f3;
 }
-
-/* .softskill { 
-  color: #757575;
-}*/
-
-.softskill p,
-.team p,
-.menu p {
-  color: #757575;
-}
-
-.do h2 {
-  text-align: center;
-}
-
+.do h2,
 .team h2 {
   text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+}
+.employee-info h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.employee-info p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #757575;
 }
 
 footer {
@@ -117,9 +145,19 @@ footer {
 }
 
 .address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
   color: white;
 }
 
-.employee-info {
-  text-align: center;
+.contact {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
