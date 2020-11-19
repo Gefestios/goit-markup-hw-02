@@ -16,7 +16,7 @@ body {
   font-family: "Pacifico", cursive; */
   font-family: "Roboto", sans-serif;
 }
-
+/* Логотип */
 .logo {
   font-family: "Raleway", sans-serif;
 }
@@ -57,8 +57,7 @@ b {
   line-height: 1.36em;
   letter-spacing: 0.06em;
 }
-
-.hero a:hover {
+.hero a:active {
   color: #2196f3;
 }
 .hero a {
@@ -94,11 +93,10 @@ b {
   letter-spacing: 0.02em;
   color: #212121;
 }
-
-.main-nav a:hover {
+.main-nav a:hover,
+.main-nav a:focus {
   color: #2196f3;
 }
-
 .main-tel a {
   text-transform: capitalize;
   font-family: Roboto;
@@ -109,7 +107,8 @@ b {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.main-tel a:hover {
+.main-tel a:hover,
+.main-tel a:focus {
   color: #2196f3;
 }
 .do h2,
