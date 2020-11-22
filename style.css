@@ -59,7 +59,9 @@ b {
   line-height: 1.36em;
   letter-spacing: 0.06em;
 }
-.hero a:active {
+.hero a:active,
+.hero a:hover,
+.hero a:focus {
   color: #2196f3;
 }
 .hero a {
@@ -104,13 +106,15 @@ b {
   color: #212121;
 }
 /* .main-nav a:visited, */
+.main-nav a:active,
 .main-nav a:hover,
 .main-nav a:focus {
   color: #2196f3;
 }
+
+.main-nav a,
 .main-tel a {
   text-transform: capitalize;
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14em;
@@ -118,6 +122,7 @@ b {
   color: #757575;
 }
 /*main-tel a:visited, */
+.main-tel a:active,
 .main-tel a:hover,
 .main-tel a:focus {
   color: #2196f3;
