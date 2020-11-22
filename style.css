@@ -27,7 +27,7 @@ header {
 
 span {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -64,21 +64,21 @@ b {
 }
 .hero a {
   color: white;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87em;
   letter-spacing: 0.06em;
 }
 
 .softskill h3 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .softskill p {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71em;
   letter-spacing: 0.03em;
@@ -103,6 +103,7 @@ b {
   letter-spacing: 0.02em;
   color: #212121;
 }
+/* .main-nav a:visited, */
 .main-nav a:hover,
 .main-nav a:focus {
   color: #2196f3;
@@ -116,6 +117,7 @@ b {
   letter-spacing: 0.02em;
   color: #757575;
 }
+/*main-tel a:visited, */
 .main-tel a:hover,
 .main-tel a:focus {
   color: #2196f3;
@@ -128,7 +130,7 @@ b {
 .do h2,
 .team h2 {
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17em;
   letter-spacing: 0.03em;
@@ -146,11 +148,32 @@ b {
 }
 
 .employee-info p {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1, 18em;
   text-align: center;
   color: #757575;
+}
+
+.skill-info {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.skill-info h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+}
+
+.skill-info p {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 88em;
+  letter-spacing: 0.03em;
 }
 
 footer {
@@ -159,7 +182,7 @@ footer {
 }
 
 .address {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71em;
   letter-spacing: 0.03em;
@@ -167,7 +190,7 @@ footer {
 }
 
 .contact {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71em;
   letter-spacing: 0.03em;
