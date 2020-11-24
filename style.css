@@ -4,7 +4,7 @@
 }
 a {
   text-decoration: none;
-  color: black;
+  /* color: black; */
 }
 
 ul {
@@ -24,7 +24,6 @@ header {
 }
 
 span {
-  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -33,7 +32,6 @@ span {
 }
 
 b {
-  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19em;
@@ -63,11 +61,11 @@ b {
   color: #2196f3;
 }
 .hero a {
-  color: white;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87em;
   letter-spacing: 0.06em;
+  color: white;
 }
 
 .softskill h3 {
@@ -76,6 +74,7 @@ b {
   line-height: 1.14em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #212121;
 }
 .softskill p {
   font-weight: 400;
@@ -111,15 +110,15 @@ b {
   color: #2196f3;
 }
 
-.main-nav a,
 .main-tel a {
   text-transform: capitalize;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: #757575;
 }
+
 /*main-tel a:visited, */
 .main-tel a:active,
 .main-tel a:hover,
