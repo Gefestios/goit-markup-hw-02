@@ -93,6 +93,7 @@ b {
 .b1:hover,
 .b1:focus {
   background: #2196f3;
+  color: #ffffff;
 }
 
 .main-nav a {
