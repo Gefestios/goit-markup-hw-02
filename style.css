@@ -185,6 +185,8 @@ footer {
 }
 
 .address {
+  font-style: normal;
+  text-decoration: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71em;
@@ -193,6 +195,8 @@ footer {
 }
 
 .contact {
+  font-style: normal;
+  text-decoration: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71em;
