@@ -3,6 +3,7 @@
   --tittle-text-color: #757575;
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
+  --background-color: #e5e5e5;
 }
 * {
   margin: 0;
@@ -18,10 +19,9 @@ ul {
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: var(--background-color);
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
-
   /* font-family: "Raleway", sans-serif; */
 }
 header {
@@ -30,10 +30,10 @@ header {
 /* Логотип */
 .logo {
   font-family: "Raleway", sans-serif;
-  color: var(--primary-bg-color);
+  /* color: var(--primary-bg-color); */
 }
 
-span {
+.logo-blue {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -41,12 +41,55 @@ span {
   color: var(--accent-color);
 }
 
-b {
+.logo-black {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19em;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+
+.logo-white {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19em;
+  letter-spacing: 0.03em;
+  color: var(--primary-bg-color);
+}
+/* Меню сайта */
+.main-nav .list {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+/* .main-nav a:visited, */
+.main-nav .link:active,
+.main-nav .link:hover,
+.main-nav .link:focus {
+  color: var(--accent-color);
+}
+.main-tel a {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+  color: var(--tittle-text-color);
+}
+
+/*main-tel a:visited, */
+.main-tel a:active,
+.main-tel a:hover,
+.main-tel a:focus {
+  color: var(--accent-color);
 }
 
 .hero {
@@ -91,7 +134,7 @@ b {
 }
 
 .b1 {
-  background: #f5f4fa;
+  background: var(--background-color);
   border-radius: 4px;
 }
 
@@ -99,40 +142,6 @@ b {
 .b1:focus {
   background: var(--accent-color);
   color: var(--primary-bg-color);
-}
-
-.main-nav .list {
-  text-transform: capitalize;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14em;
-  letter-spacing: 0.02em;
-}
-
-.current {
-  color: var(--accent-color);
-}
-
-/* .main-nav a:visited, */
-.main-nav .link:active,
-.main-nav .link:hover,
-.main-nav .link:focus {
-  color: var(--accent-color);
-}
-.main-tel a {
-  text-transform: capitalize;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14em;
-  letter-spacing: 0.02em;
-  color: var(--tittle-text-color);
-}
-
-/*main-tel a:visited, */
-.main-tel a:active,
-.main-tel a:hover,
-.main-tel a:focus {
-  color: var(--accent-color);
 }
 
 .team {
