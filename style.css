@@ -30,7 +30,7 @@ header {
 /* Логотип */
 .logo {
   font-family: "Raleway", sans-serif;
-  /* color: var(--primary-bg-color); */
+  color: var(--primary-text-color);
 }
 
 .logo-blue {
@@ -58,12 +58,15 @@ header {
 }
 /* Меню сайта */
 .main-nav .list {
-  text-transform: capitalize;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.02em;
-  color: var(--accent-color);
+  /* color: var(--accent-color); */
+}
+
+.main-nav .link {
+  text-transform: capitalize;
 }
 
 .current {
