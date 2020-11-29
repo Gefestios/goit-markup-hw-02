@@ -3,36 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>WebStudio</title>
   </head>
 
   <body>
-    <header>
-      <nav>
-        <!--logo-->
-        <a href="#">
-          <p class="logo">
-            <span class="logo-blue">Web</span
-            ><span class="logo-black">Studio</span>
-          </p>
-        </a>
-        <!--menu-->
-        <ul class="main-nav list">
-          <li><a href="./index.html" class="link current">cтудия</a></li>
-          <li><a href="./portfolio.html" class="link">портфолио</a></li>
-          <li><a href="#" class="link">контакты</a></li>
+    <header class="page-header">
+      <div class="container">
+        <nav>
+          <!--logo-->
+          <a href="#">
+            <p class="logo">
+              <span class="logo-blue">Web</span
+              ><span class="logo-black">Studio</span>
+            </p>
+          </a>
+          <!--menu-->
+          <ul class="main-nav list">
+            <li><a href="./index.html" class="link current">cтудия</a></li>
+            <li><a href="./portfolio.html" class="link">портфолио</a></li>
+            <li><a href="#" class="link">контакты</a></li>
+          </ul>
+          <!--tel-->
+        </nav>
+        <ul class="main-tel">
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-        <!--tel-->
-      </nav>
-      <ul class="main-tel">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
     <main>
       <!--EFFICIENT SOLUTIONS-->
@@ -41,7 +47,7 @@
           эфективные решения <br />
           для вашего бизнеса
         </h1>
-        <a href="#">Заказать услугу</a>
+        <a class="batton" href="#">Заказать услугу</a>
       </section>
       <!--Softskill-->
       <section class="softskill">
